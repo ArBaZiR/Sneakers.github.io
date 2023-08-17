@@ -1,0 +1,50 @@
+@media (max-width: 610px) {
+  body h1 {
+    font-size: 16px;
+  }
+
+  .logo__text h3 {
+    font-size: 12px;
+  }
+
+  .basket__block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .logo__text h1,
+  .logo__text h3 {
+    display: none;
+  }
+
+  .logo__text-active {
+    display: flex;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo__text-active {
+    display: none;
+  }
+
+  .navigation__btn {
+    column-gap: 15px;
+  }
+
+  .main-products__text {
+    padding: 20px;
+  }
+
+  .main-products div {
+    margin: 0;
+  }
+
+  .main-products > img {
+    display: none;
+  }
+
+  .main-products_btn {
+    width: 140px;
+  }
+}
