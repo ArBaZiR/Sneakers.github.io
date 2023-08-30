@@ -127,7 +127,6 @@ class BasketProducts {
         <button class="delete-card-btn bckg-image"></button>
       </div>
     </div>
-  </div>
   `;
     ///
 
@@ -257,7 +256,6 @@ class Shopping {
              <button class="delete-card-btn bckg-image"></button>
            </div>
          </div>
-       </div>
        `;
         newBasketProducts.DeleteCard();
         newBasketProducts.CartPriceAdd(price);
