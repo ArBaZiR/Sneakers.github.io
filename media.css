@@ -47,4 +47,8 @@
   .main-products_btn {
     width: 140px;
   }
+  .card__title {
+    font-size: 12px;
+  }
+  
 }
